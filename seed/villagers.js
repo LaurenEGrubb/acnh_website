@@ -1,6 +1,7 @@
 const { mainModule } = require('process')
 const db = require('../db')
 const { Rating, Review } = require('../models')
+const Villager = require('../models/villager')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 

@@ -1,16 +1,12 @@
 const mongoose = require( 'mongoose' )
 const Schema = mongoose.Schema
 
-
-const reviewSchema = new Schema(
+const Review = new Schema(
     {
- 
-    review: { type: String, required: true },
-    text: { type: String, required: true },
-    name: { type: String, required: true },
-    villager: { type: Schema.Types.ObjectId, ref: 'Villager'},
- },   
-     { timestamps: true }
-   )
-   
-   module.exports = reviewSchema
+        ride_id: { type: Schema.Types.ObjectId, ref: 'villager_id' },
+        review: { type: String, required: false },
+    },
+    { timestamps: true },
+)
+
+module.exports = mongoose.model('Review', Review) 
