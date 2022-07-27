@@ -9,4 +9,4 @@ router.get('/villagers', async (req, res) => {
     res.json( villagers)
 })
 
-router.post('/villagers/details', controllers.createReview, controllers.createRating) 
+router.post('/villagers/details', controllers.createReview) 

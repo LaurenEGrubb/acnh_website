@@ -7,6 +7,7 @@ import React from 'react'
 import Navigation from './components/Navigation'
 import Search from './components/Search'
 import VillagerList from './pages/VillagerDetails'
+import VillagerDetails from './pages/ReviewRateVillager'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
             <Routes>
               <Route path='/' element={<Home />}/>
               <Route path='/villagers' element={<VillagerList />}/>
+              <Route path='/villagers/details' element={<VillagerDetails />}/>
              
             </Routes>
 
