@@ -2,10 +2,11 @@
 import './styles/App.css';
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home.js'
-import ReviewRateVillager from './pages/ReviewRateVillager'
+
 import React from 'react'
 import Navigation from './components/Navigation'
 import Search from './components/Search'
+import VillagerList from './pages/VillagerDetails'
 
 
 const App = () => {
@@ -18,6 +19,8 @@ const App = () => {
 
             <Routes>
               <Route path='/' element={<Home />}/>
+              <Route path='/villagers' element={<VillagerList />}/>
+             
             </Routes>
 
         </main>

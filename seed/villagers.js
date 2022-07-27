@@ -5,7 +5,7 @@ const Villager = require('../models/villager')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
-const villager = async () => {
+const villager = async (props) => {
 
     Villager.Collection.drop()
 

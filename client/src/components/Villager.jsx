@@ -1,13 +1,14 @@
 
-const villagerCard = ({ info }) => {
 
- 
-   
+
+const VillagerCard = ({ villagers }) => {
+
+  
     return (
       <div className="villagerCard"  >
         
-        <p className='name'>{ villager.name }</p>
-        <img src={villager.image} alt="image"  ></img>
+        {/*<p className='name'>{ villagers._id }</p>
+        <img src={villagers.image} alt="image"  ></img>*/}
     
         <div className="info-wrapper flex-col">
       
@@ -16,6 +17,6 @@ const villagerCard = ({ info }) => {
   
       )
     }
-    export default villagerCard
+    export default VillagerCard
   
   

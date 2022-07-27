@@ -1,30 +1,30 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
-import VillagerDetails from '../components/VillagerDetails'
+import Villager from '../components/Villager'
 
-const VillagerDetails = () => {
+const VillagerList = () => {
 
-  const [ villagerDetails, setVillagerDetails ] = useState([])
+  const [ villagers, setVillagers ] = useState([])
 
-  const getVillagerDetails = async () => {
-      const res = await axios.get('http://localhost:3001/api/villagers')
-      setVillagerDetails( res.data )
+  const getVillager = async () => {
+      const res = await axios.get('http://localhost:3002/api/villagers')
+      setVillagers( res.data )
  
   }
 
   useEffect( ( ) => {
-      getVillagerDetails() 
+      getVillager () 
   },[])
 
   return (
-      <div className='all-details'>
-          { villagerDetails.map( villager => (
+      <div className='villagercard'>Words
+          { villagers.map( villager => (
             
-              <VillagerDetails info={ villager }
+              <Villager info={ villager }
               key={ villager.name }/>
           ) ) }
       </div>
   )
 }
 
-export default VillagerDetails
+export default VillagerList
