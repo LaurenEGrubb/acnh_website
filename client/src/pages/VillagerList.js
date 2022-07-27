@@ -7,7 +7,7 @@ const VillagerList = () => {
   const [ villagers, setVillagers ] = useState([])
 
   const getVillager = async () => {
-      const res = await axios.get('http://localhost:3002/api/villagers')
+      const res = await axios.get('http://localhost:3003/villagers')
       setVillagers( res.data )
  
   }

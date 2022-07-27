@@ -29,7 +29,7 @@ const createReview = async ( request, response ) => {
 
 }
 
-const getVillager = async
+
 
 module.exports = {
     createRating,

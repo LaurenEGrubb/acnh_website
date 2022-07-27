@@ -4,8 +4,9 @@ import './styles/index.css'
 import App from './App'
 import { BrowserRouter } from 'react-router-dom'
 // import BrowserRouter with { destructuring } here
-const root = createRoot(document.getElementById('root'))
 
+
+const root = createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -13,4 +14,4 @@ root.render(
    </BrowserRouter> // 
   </React.StrictMode>
  
-)
+);

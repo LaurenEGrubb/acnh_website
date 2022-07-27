@@ -6,7 +6,7 @@ import Home from './pages/Home.js'
 import React from 'react'
 import Navigation from './components/Navigation'
 import Search from './components/Search'
-import VillagerList from './pages/VillagerDetails'
+import VillagerList from './pages/VillagerList'
 import VillagerDetails from './pages/ReviewRateVillager'
 
 
@@ -21,7 +21,8 @@ const App = () => {
             <Routes>
               <Route path='/' element={<Home />}/>
               <Route path='/villagers' element={<VillagerList />}/>
-              <Route path='/villagers/details' element={<VillagerDetails />}/>
+              <Route path='/villagers/rate' element={<VillagerDetails />}/>
+              <Route path='/villagers/review' element={<VillagerDetails />}/>
              
             </Routes>
 
