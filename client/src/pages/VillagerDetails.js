@@ -18,17 +18,6 @@ const VillagerDetails = ({ villagerDetails, setVillagerDetails }) => {
         getVillagerDetails()
     }, [])
 
-const handleSubmit = (event) => {
-    event.preventDefault();
-    const res = await axios.post(`http://localhost:3003/villagers/${id}`,{
-        review,
-        villager_id : info._id
-    })
-    info.reviews.push( {review, villager_id : info._id })
-    setReview()
-
-}
-
 
     return (
         <div className='details'>
@@ -36,18 +25,18 @@ const handleSubmit = (event) => {
          <h2>{villager.name}</h2>
          <img src={villager.image} class="biggerimage"/>
          <p>{villager.description}</p>
-         <form onSubmit= {handleSubmit}>
+         <form onSubmit>
             <label htmlFor="review" ></label>
             <textarea 
             id="message"
             cols="30" 
             rows="10"
             value= { Review }
-            onChange={ (e) => {
-                setReview( e.target.value )
-            }}>
-            </textarea> { info.reviews }
+        >
+            </textarea> 
             <button type="submit">Submit</button>
+            <button type="submit">Delete</button>
+            <button type="submit">Edit</button>
          </form>
                         
         </div>
