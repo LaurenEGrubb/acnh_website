@@ -49,3 +49,6 @@ body {
 .card:hover {
   transform: scale(1.5);
 }
+.navbar {
+  background-color: rgb(196, 179, 211);
+}

@@ -8,7 +8,7 @@ const Villager = new Schema(
         description: { type: String, required: false },
         image: { type: String, required: false }, //change to true//
         review: { type: Array, required: false },
-       rate: { type: Array, required: false  }
+     
 
     },
     { timestamps: true },

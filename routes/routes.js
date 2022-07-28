@@ -16,8 +16,13 @@ router.get('/villagers', async (req, res) => {
     
 })
 
-router.post('/villagers/review', controllers.createReview) 
+router.post('/villagers/:id/review', controllers.createReview) 
+router.get('/villagers/:id', controllers.selectOneVillager)
+router.put('/villagers/:id/review', controllers.updateReview)
+router.delete('/villagers/:id/review', controllers.deleteReview)
 
-router.post('/villagers/rate', controllers.createRating)
+
+//router.post('/villagers/rate', controllers.createRating)
+
 
 module.exports = router;
