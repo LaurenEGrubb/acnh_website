@@ -17,6 +17,7 @@ const VillagerList = () => {
   },[])
 
   return (
+    <main>
       <div className='villagercard'>Words
           { villagers.map( villager => (
             
@@ -24,6 +25,7 @@ const VillagerList = () => {
               key={ villager.name }/>
           ) ) }
       </div>
+    </main>
   )
 }
 
