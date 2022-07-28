@@ -1,6 +1,9 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import Villager from '../components/Villager'
+import { useNavigate } from 'react-router-dom'
+
+
 
 const VillagerList = () => {
 
@@ -11,6 +14,13 @@ const VillagerList = () => {
       setVillagers( res.data )
  
   }
+  
+    let navigate = useNavigate(); 
+    const routeChange = () =>{ 
+    let path = `/villagers/review`; 
+    navigate(path);
+}
+
 
   useEffect( ( ) => {
       getVillager () 
@@ -18,7 +28,7 @@ const VillagerList = () => {
 
   return (
     <main>
-      <div className='villagercard'>Words
+      <div className='villagercard' onClick = {routeChange}>Words
           { villagers.map( villager => (
             
               <Villager info={ villager }
