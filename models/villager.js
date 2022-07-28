@@ -5,13 +5,13 @@ const Villager = new Schema(
     {
         
         name: { type: String, required: true },
-        description: { type: String, required: false },
-        image: { type: String, required: false }, //change to true//
-        review: { type: Array, required: false },
+        description: { type: String, required: true },
+        image: { type: String, required: false }, 
+        reviews: [{ type: Schema.Types.ObjectId, ref: 'Review' }]
      
 
     },
-    { timestamps: true },
+    { timestamps: true }
 )
 
 module.exports = mongoose.model('Villager', Villager)
