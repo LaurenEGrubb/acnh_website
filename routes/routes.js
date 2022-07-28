@@ -6,16 +6,7 @@ const Review = require( '../models/review.js' )
 const Rating =require('../models/rating.js')
 
 
-router.get('/villagers', async (req, res) => {
-   try {
-    const villagers = await Villager.find()
-    res.json( villagers)
-   } catch (error) {
-    res.send(error)
-   }
-    
-})
-
+router.get('/villagers', controllers.getAllVillagers)
 router.post('/villagers/:id/review', controllers.createReview) 
 router.get('/villagers/:id', controllers.selectOneVillager)
 router.put('/villagers/:id/review', controllers.updateReview)

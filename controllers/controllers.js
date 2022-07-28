@@ -2,20 +2,31 @@
 const { db } = require('../models/villager');
 const  Rating = require('../models/rating');
 const Review = require('../models/review')
-const Villager= require('../models/villager')
+const Villager= require('../models/villager');
+const review = require('../models/review');
 
-const VILLAGER_BASE_URL = "http://localhost:3003/villagers/review";
 
-
+const getAllVillagers = async (req, res) => {
+    try {
+     const villagers = await Villager.find()
+     res.json( villagers)
+    } catch (error) {
+     res.send(error)
+    }
+     
+ }
 
 const createReview = async ( request, response ) => {
     try {
-        // Review.create( req.body )
+        const villager = await Villager.findById(request.params.id)
+        request.body.villager_id = request.params.id
         const review = await new Review(request.body)
         await review.save()
-        return response.status(201).json({
-            review,
-        });
+        villager.reviews.push(review._id)
+        await villager.save()
+        return response.status(201).json(
+            review
+        );
     } catch (error) {
         return response.status(500).json({ error: error.message })
     }
@@ -23,27 +34,27 @@ const createReview = async ( request, response ) => {
 }
 
 const updateReview = async (request, response) => {
-   const reviewIndex = 1
-   const newReview = "Review (updated"
-   const newReviewList = review.map((review, index) => {
-    return review === reviewIndex ? newReview : review
-   })
-   newReviewList()
-
+    const id = request.params.id
+    try {
+        const review = await Review.findByIdAndUpdate(req.params.id, req.body, { new: true})
+        res.status(200).json(review)
+    } catch (error) {
+        return res.status(500).json(error.message);
+    }
 }
 
-const deleteReview = async (request, response) => {
-    
-    const index = review.findIndex((review) => review.id === id);
-        review.splice(index, 1);
-    
-    
-    try {const del = await review.deleteOne(request.params.id)
-        return response.status(201).json(review)
-    } catch (error) {
-        return response.status(500).json(review)
-    }
 
+
+const deleteReview = async (request, response) => {
+   const id = request.params.id
+   console.log(request.params.id)
+    try {
+     const review = await Review.findByIdAndDelete(request.params.id) 
+    response.status(200).send(review)
+   } catch (error) {
+    return response.status(500).json({ error: error.message })
+   }
+  
 }
 const selectOneVillager = async (request, response) => {
     
@@ -60,11 +71,12 @@ const selectOneVillager = async (request, response) => {
 
 
 module.exports = {
-    createRating,
+    
     createReview,
     selectOneVillager,
     updateReview,
-    deleteReview
+    deleteReview,
+    getAllVillagers
 }
 
 //get
