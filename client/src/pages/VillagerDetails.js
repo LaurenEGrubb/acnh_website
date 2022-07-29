@@ -18,6 +18,19 @@ const VillagerDetails = ({ villagerDetails, setVillagerDetails }) => {
         getVillagerDetails()
     }, [])
 
+ const handleDelete = async () => {
+    await axios.delete(`http://localhost:3003/villagers/${id}/review`)
+}
+
+const [form, setForm] = useState(initialState);
+const handleChange = (event) => {
+    await axios.put(`http://localhost:3003/villagers/${id}/review`)
+    setForm(...form, [event.target.value]);
+}
+const handleSubmit = async (e) => {
+    e.preventDefault();
+    let response = await axios.post(`http://localhost:3003/villagers/${id}/review`, form)
+}
 
     return (
         <div className='details'>
@@ -34,9 +47,9 @@ const VillagerDetails = ({ villagerDetails, setVillagerDetails }) => {
             value= { Review }
         >
             </textarea> 
-            <button type="submit">Submit</button>
-            <button type="submit">Delete</button>
-            <button type="submit">Edit</button>
+            <button type="submit" onClick={handleSubmit}>Submit</button>
+            <button type="submit" onClick={handleDelete}>Delete</button>
+            <button type="submit" onChange={handleChange}>Edit</button>
          </form>
                         
         </div>

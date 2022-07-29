@@ -36,10 +36,10 @@ const createReview = async ( request, response ) => {
 const updateReview = async (request, response) => {
     const id = request.params.id
     try {
-        const review = await Review.findByIdAndUpdate(req.params.id, req.body, { new: true})
-        res.status(200).json(review)
+        const review = await Review.findByIdAndUpdate(request.params.id, request.body, { new: true})
+        response.status(200).json(review)
     } catch (error) {
-        return res.status(500).json(error.message);
+        return response.status(500).json(error.message);
     }
 }
 

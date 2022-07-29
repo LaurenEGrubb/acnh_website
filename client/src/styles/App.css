@@ -9,8 +9,12 @@ body {
   align-items: center;
   width: 100vh;
   height: 100vw;
-  background-image: url("https://i.pinimg.com/1200x/e7/23/cc/e723ccbfc57ed3c60a40e226c9fa5ef6.jpg")
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5783b41337c581c34c808812/1608055534192-RM1MY1KYESTVBNP4CS7Q/Home+page+background+graphics+-+leaves-01.jpg?format=2500w")
   
+}
+
+header {
+  background-color: black;
 }
 .name {
   border: 1px solid rgb(131, 65, 101);
@@ -25,8 +29,8 @@ body {
   flex-wrap: wrap;
   align-items: center;
   background-size: cover;
-  background-color: pink;
-  border: 5px solid aqua;
+  background-color: rgb(104, 168, 210);
+  border: 5px solid rgb(36, 95, 95);
   cursor: pointer;
   
 }
@@ -42,7 +46,7 @@ body {
   padding-bottom: 0px;
   padding-left: 10px;
   border: 1px solid rgb(131, 65, 101);
-  background-color: pink;
+  background-color: rgb(104, 168, 210);
   transition: transform .2s;
 }
 
@@ -52,3 +56,13 @@ body {
 .navbar {
   background-color: rgb(196, 179, 211);
 }
+button{
+  background-image: url('https://shop.cactuart.com/wp-content/uploads/2020/10/animal-crossing-new-horizons-isabelle-leaf-pin-back-buttons-cosplay-accessories-5f9d3c1c.jpg');
+  background-size: cover;
+  border-radius: 75%;
+  width: 45px;
+  height: 45px;
+  font-size: 1;
+  cursor: pointer;
+  }
+
