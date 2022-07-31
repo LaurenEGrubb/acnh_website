@@ -1,5 +1,5 @@
 
-const { db } = require('../models/villager');
+const { db, populate } = require('../models/villager');
 const  Rating = require('../models/rating');
 const Review = require('../models/review')
 const Villager= require('../models/villager');
@@ -8,7 +8,7 @@ const review = require('../models/review');
 
 const getAllVillagers = async (req, res) => {
     try {
-     const villagers = await Villager.find()
+     const villagers = await Villager.find().populate("reviews")
      res.json( villagers)
     } catch (error) {
      res.send(error)
@@ -34,13 +34,15 @@ const createReview = async ( request, response ) => {
 }
 
 const updateReview = async (request, response) => {
-    const id = request.params.id
+    const {id} = request.params
     try {
-        const review = await Review.findByIdAndUpdate(request.params.id, request.body, { new: true})
+        const review = await Review.findByIdAndUpdate(id, request.body, { new: true})
+        console.log(review)
         response.status(200).json(review)
     } catch (error) {
         return response.status(500).json(error.message);
     }
+    
 }
 
 
@@ -58,7 +60,7 @@ const deleteReview = async (request, response) => {
 }
 const selectOneVillager = async (request, response) => {
     
-    try {const villager = await Villager.findById(request.params.id)
+    try {const villager = await Villager.findById(request.params.id).populate("reviews")
         return response.status(201).json(villager)
 
     } catch (error) {

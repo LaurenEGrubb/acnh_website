@@ -61,7 +61,7 @@ const VillagerDetail = ({ info }) => {
       </form>
       <div className="villagerReviews">
         <div > Reviews
-          { info.review.map( review => [
+          { info.reviews.map( review => [
             <p>{review.review}</p>
           ] ) }
         </div>

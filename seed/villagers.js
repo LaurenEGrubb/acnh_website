@@ -46,7 +46,7 @@ const villager = async (props) => {
             
             name: "Alice",
             description:"Normal, Koala",
-            image:'image.png',
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/9/96/NH-Alice_poster.png/revision/latest/scale-to-width-down/100?cb=20200522013639',
             reviews: []
         },
         {
@@ -203,6 +203,28 @@ const villager = async (props) => {
             image:'https://dodo.ac/np/images/thumb/8/8b/Baabara%27s_Poster_NH_Texture.png/64px-Baabara%27s_Poster_NH_Texture.png',
             reviews: []
         },
+        {
+            
+            name: "Bam",
+            description:"Jock, Deer",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/b/b2/NH-Bam_poster.png/revision/latest/scale-to-width-down/100?cb=20200522020326',
+            reviews: []
+        },
+        {
+            
+            name: "Bangle",
+            description:"Peppy, Tiger",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Bangle_poster.png/revision/latest/scale-to-width-down/100?cb=20200410183706',
+            reviews: []
+        },
+        {
+            
+            name: "Barold",
+            description:"Lazy, Cub",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/9/99/NH-Barold_poster.png/revision/latest/scale-to-width-down/100?cb=20200522020415',
+            reviews: []
+        },
+        
         
     ]
     await Villager.insertMany(villagers)

@@ -1,6 +1,3 @@
-import axios from 'axios'
-import Villager from '../components/Villager.jsx'
-
 
 const VillagerCard = (props) => {
 
@@ -10,11 +7,8 @@ const VillagerCard = (props) => {
       <div className="card"  >
         
         <p className='name'>{ props.info.name }</p>
-        <img src={props.info.image} alt="image"  ></img>
-    
-        <div className="info-wrapper flex-col">
-      
-        </div>
+        <img src={props.info.image} alt="image" />
+
       </div>
   
       )
