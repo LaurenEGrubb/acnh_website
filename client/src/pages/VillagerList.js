@@ -1,7 +1,4 @@
-import axios from 'axios'
-import { useEffect, useState } from 'react'
-import VillagerCard from '../components/VillagerCard'
-import { useNavigate } from 'react-router-dom'
+import VillagerCard from '../components/VillagerCa
 import { Link } from 'react-router-dom'
 
 
