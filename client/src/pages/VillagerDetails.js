@@ -60,7 +60,8 @@ const handleEdit = async (id) => {
                 <button type="submit" onClick={()=>handleDelete(review._id)}>Delete</button>
                 <button type="submit" onClick={()=>handleEdit(review._id)} value= { message }>Edit</button>   
             </div>
-           ))}          
+           ))}   
+           <p> When doing the edit feature, you have to type in the text box of what you want the comment to be replaced with and then select the button "Edit" of the chosen comment you want to be replaced.</p>       
         </div>
     )
 }
