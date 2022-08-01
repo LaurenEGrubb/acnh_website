@@ -3,7 +3,7 @@ const controllers = require('../controllers/controllers.js')
 const router = Router();
 const Villager = require( '../models/villager.js' )
 const Review = require( '../models/review.js' )
-const Rating =require('../models/rating.js')
+
 
 
 router.get('/villagers', controllers.getAllVillagers)

@@ -1,6 +1,5 @@
 
 const { db, populate } = require('../models/villager');
-const  Rating = require('../models/rating');
 const Review = require('../models/review')
 const Villager= require('../models/villager');
 const review = require('../models/review');
