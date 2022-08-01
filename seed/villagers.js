@@ -211,17 +211,132 @@ const villager = async (props) => {
             reviews: []
         },
         {
-            
             name: "Bangle",
             description:"Peppy, Tiger",
             image:'https://static.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Bangle_poster.png/revision/latest/scale-to-width-down/100?cb=20200410183706',
             reviews: []
         },
         {
-            
             name: "Barold",
             description:"Lazy, Cub",
             image:'https://static.wikia.nocookie.net/animalcrossing/images/9/99/NH-Barold_poster.png/revision/latest/scale-to-width-down/100?cb=20200522020415',
+            reviews: []
+        },
+        {
+            name: "Bea",
+            description:"Normal, Dog",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/c/ca/NH-Bea_poster.png/revision/latest/scale-to-width-down/100?cb=20200522020603',
+            reviews: []
+        },
+        {
+            name: "Beardo",
+            description:"Smug, Bear",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Beardo_poster.png/revision/latest/scale-to-width-down/100?cb=20200522020636',
+            reviews: []
+        },
+        {
+            name: "Beau",
+            description:"Lazy, Deer",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/2/2a/NH-Beau_poster.png/revision/latest/scale-to-width-down/100?cb=20200522020451',
+            reviews: []
+        },
+        {
+            name: "Becky",
+            description:"Snooty, Chicken",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/e/ec/NH-Becky_poster.png/revision/latest/scale-to-width-down/100?cb=20200522020704',
+            reviews: []
+        },
+        {
+            name: "Benedict",
+            description:"Lazy, Chicken",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/0/0e/NH-Benedict_poster.png/revision/latest/scale-to-width-down/100?cb=20200522020807',
+            reviews: []
+        },
+        {
+            name: "Benjamin",
+            description:"Lazy, Dog",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/5/5f/NH-Benjamin_poster.png/revision/latest/scale-to-width-down/100?cb=20200522021534',
+            reviews: []
+        },
+        {
+            name: "Bertha",
+            description:"Normal, Hippo",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/3/3f/NH-Bertha_poster.png/revision/latest/scale-to-width-down/100?cb=20200522021717',
+            reviews: []
+        },
+        {
+            name: "Bianca",
+            description:"Peppy, Tiger",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Bianca_poster.png/revision/latest/scale-to-width-down/100?cb=20200410183555',
+            reviews: []
+        },
+        {
+            name: "Biff",
+            description:"Jock, Hippo",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Biff_poster.png/revision/latest/scale-to-width-down/100?cb=20200522022022',
+            reviews: []
+        },
+        
+        {
+            name: "Big Top",
+            description:"Lazy, Elephant",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/c/ca/NH-Big_Top_poster.png/revision/latest/scale-to-width-down/100?cb=20200522022102',
+            reviews: []
+        },
+        
+        {
+            name: "Bill",
+            description:"Jock, Duck",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/4/4c/NH-Bill_poster.png/revision/latest/scale-to-width-down/100?cb=20200522022341',
+            reviews: []
+        },
+        
+        {
+            name: "Billy",
+            description:"Jock, Goat",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Billy_poster.png/revision/latest/scale-to-width-down/100?cb=20200522022646',
+            reviews: []
+        },
+        
+        {
+            name: "Biskit",
+            description:"Lazy, Dog",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/c/c8/NH-Biskit_poster.png/revision/latest/scale-to-width-down/100?cb=20200522023459',
+            reviews: []
+        },
+        
+        {
+            name: "Bitty",
+            description:"Snooty, Hippo",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Bitty_poster.png/revision/latest/scale-to-width-down/100?cb=20200522023552',
+            reviews: []
+        },
+        
+        {
+            name: "Blaire",
+            description:"Snooty, Squirrel",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/f/f3/NH-Blaire_poster.png/revision/latest/scale-to-width-down/100?cb=20200410184330',
+            reviews: []
+        },
+        
+        {
+            name: "Blanche",
+            description:"Snooty, Ostrich",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/1/18/NH-Blanche_poster.png/revision/latest/scale-to-width-down/100?cb=20200410191641',
+            reviews: []
+        },
+        
+        {
+            name: "Bluebear",
+            description:"Peppy, Cub",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/5/50/NH-Bluebear_poster.png/revision/latest/scale-to-width-down/100?cb=20200522023616',
+            reviews: []
+        },
+        
+        {
+            name: "Bob",
+            description:"Lazy, Cat",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/1/14/NH-Bob_poster.png/revision/latest/scale-to-width-down/100?cb=20200410181927',
             reviews: []
         },
         
