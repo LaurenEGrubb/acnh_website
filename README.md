@@ -1,10 +1,10 @@
-# acnh_website# Stardome
-## Date: 7/22/22
-### By: Emily Byrne, Lauren Grubb, and James Jewitt
-#### [GitHub](https://github.com/jamest7783/wait_times) | [Game Website]()
+# acnh_website
+## Date: 8/1/22
+### By: Lauren Grubb
+#### [GitHub]
 ---
 ### **_Description_**
-#### This is a game we made in a day and a half for General Assembly. We created a website for our Amusement Park where one can view the different rides, leave a review for a ride, and provide a wait time.
+#### This is my first project working with REACT js wherew I built a database that the user can interact and manipulate with. It features a review page that goes to the specific villager that is selected on the Villagers' Page and when you write in the text box and hit refresh, you can see you review. From there you can either select delete (and refresh) or type in the text box again and select edit for the comment you wish to change. While there are still more features to be implemeneted and perfected, I'm extremely proud of the work accomplished in this project in so little time.
 ---
 ### **_Technologies_**
 - React.js
@@ -15,10 +15,7 @@
 - Javascript
 - GitHub
 - VSCode
----
-### **_Overview_**
---
----
+
 ### **_Future Updates_**
 - [x] Style pages
 - [x] More villagers! Larger databases
@@ -28,7 +25,7 @@
 
 ---
 ### **_Credits_**
-- 
+- https://animalcrossing.fandom.com/wiki/Villager_list_(New_Horizons)?file=NH-Candi_poster.png
 ### **_Future Developments_**
 - Make a form for the edit feature completely so its more clear that your editing OR have the old review pop up in the box so the user can see which review they are editing.
 - Add more villagers.
