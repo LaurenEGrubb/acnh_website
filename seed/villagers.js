@@ -417,6 +417,60 @@ const villager = async (props) => {
             image:'https://static.wikia.nocookie.net/animalcrossing/images/b/b2/NH-Buck_poster.png/revision/latest/scale-to-width-down/100?cb=20200522024142',
             reviews: []
         },
+        {
+            name: "Bud",
+            description:"Jock, Lion",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/a/ab/NH-Bud_poster.png/revision/latest/scale-to-width-down/100?cb=20200522024206',
+            reviews: []
+        },
+        {
+            name: "Bunnie",
+            description:"Peppy, Rabbit",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/8/83/NH-Bunnie_poster.png/revision/latest/scale-to-width-down/100?cb=20200410185724',
+            reviews: []
+        },
+        {
+            name: "Butch",
+            description:"Cranky, Dog",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/9/9a/NH-Butch_poster.png/revision/latest/scale-to-width-down/100?cb=20200522024229',
+            reviews: []
+        },
+        {
+            name: "Buzz",
+            description:"Cranky, Eagle",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/f/f2/NH-Buzz_poster.png/revision/latest/scale-to-width-down/100?cb=20200410191156',
+            reviews: []
+        },
+        {
+            name: "Buck",
+            description:"Jock, Horse",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/b/b2/NH-Buck_poster.png/revision/latest/scale-to-width-down/100?cb=20200522024142',
+            reviews: []
+        },
+        {
+            name: "Cally",
+            description:"Normal, Squirrel",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/0/01/NH-Cally_poster.png/revision/latest/scale-to-width-down/100?cb=20200410184015',
+            reviews: []
+        },
+        {
+            name: "Camofrog",
+            description:"Cranky, Frog",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/9/91/NH-Camofrog_poster.png/revision/latest/scale-to-width-down/100?cb=20200522045135',
+            reviews: []
+        },
+        {
+            name: "Canberra",
+            description:"Sisterly, Koala",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/b/b2/NH-Buck_poster.png/revision/latest/scale-to-width-down/100?cb=20200522024142',
+            reviews: []
+        },
+        {
+            name: "Candi",
+            description:"Peppy, Mouse",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/c/ce/NH-Candi_poster.png/revision/latest/scale-to-width-down/100?cb=20200410192349',
+            reviews: []
+        },
 
         
         
