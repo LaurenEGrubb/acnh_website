@@ -35,7 +35,10 @@ const handleSubmit = async (event) => {
     setMessage("");
 }
 
-//handleEdit
+const handleEdit = async (id) => {
+        let res = await axios.put(`http://localhost:3003/villagers/${id}/review`, {content:message})
+    setMessage("");
+}
     return (
         <div className='details'>
            
@@ -54,12 +57,12 @@ const handleSubmit = async (event) => {
             <button type="submit">Submit</button>
            
          </form>
-            
-           <button type="submit">Edit</button>   
+                    
            {villager.reviews?.map((review) => (
             <div>
                 <p>{review.content}</p>
                 <button type="submit" onClick={()=>handleDelete(review._id)}>Delete</button>
+                <button type="submit" onClick={()=>handleEdit(review._id)} value= { message }>Edit</button>   
             </div>
            ))}          
         </div>
