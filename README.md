@@ -24,8 +24,10 @@
 - [x] Phone screen friendly
 
 ---
-### **_Credits_**
+### **_Credits/Sites_**
 - https://animalcrossing.fandom.com/wiki/Villager_list_(New_Horizons)?file=NH-Candi_poster.png
+- https://trello.com/b/QHTBq4rm/project-2
+- https://docs.google.com/document/d/1GIj9FYWyw9dZqm5UXQ-cw4JoyrWzCEmQrFpLESvkqEw/edit
 ### **_Future Developments_**
 - Make a form for the edit feature completely so its more clear that your editing OR have the old review pop up in the box so the user can see which review they are editing.
 - Add more villagers.
