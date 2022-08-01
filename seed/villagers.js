@@ -376,45 +376,45 @@ const villager = async (props) => {
             reviews: []
         },
         {
-            name: "Bob",
-            description:"Lazy, Cat",
-            image:'https://static.wikia.nocookie.net/animalcrossing/images/1/14/NH-Bob_poster.png/revision/latest/scale-to-width-down/100?cb=20200410181927',
+            name: "Boyd",
+            description:"Cranky, Gorilla",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/9/9d/NH-Boyd_poster.png/revision/latest/scale-to-width-down/100?cb=20200522023834',
             reviews: []
         },
         {
-            name: "Bob",
-            description:"Lazy, Cat",
-            image:'https://static.wikia.nocookie.net/animalcrossing/images/1/14/NH-Bob_poster.png/revision/latest/scale-to-width-down/100?cb=20200410181927',
+            name: "Bree",
+            description:"Snooty, Mouse",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/4/42/NH-Bree_poster.png/revision/latest/scale-to-width-down/100?cb=20200410192442',
             reviews: []
         },
         {
-            name: "Bob",
-            description:"Lazy, Cat",
-            image:'https://static.wikia.nocookie.net/animalcrossing/images/1/14/NH-Bob_poster.png/revision/latest/scale-to-width-down/100?cb=20200410181927',
+            name: "Broccolo",
+            description:"Lazy, Mouse",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/1/10/NH-Broccolo_poster.png/revision/latest/scale-to-width-down/100?cb=20200410192254',
             reviews: []
         },
         {
-            name: "Bob",
-            description:"Lazy, Cat",
-            image:'https://static.wikia.nocookie.net/animalcrossing/images/1/14/NH-Bob_poster.png/revision/latest/scale-to-width-down/100?cb=20200410181927',
+            name: "Broffina",
+            description:"Snooty, Chicken",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/c/c9/NH-Broffina_poster.png/revision/latest/scale-to-width-down/100?cb=20200522024006',
             reviews: []
         },
         {
-            name: "Bob",
-            description:"Lazy, Cat",
-            image:'https://static.wikia.nocookie.net/animalcrossing/images/1/14/NH-Bob_poster.png/revision/latest/scale-to-width-down/100?cb=20200410181927',
+            name: "Bruce",
+            description:"Cranky, Deer",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/6/6d/NH-Bruce_poster.png/revision/latest/scale-to-width-down/100?cb=20200522023923',
             reviews: []
         },
         {
-            name: "Bob",
-            description:"Lazy, Cat",
-            image:'https://static.wikia.nocookie.net/animalcrossing/images/1/14/NH-Bob_poster.png/revision/latest/scale-to-width-down/100?cb=20200410181927',
+            name: "Bubbles",
+            description:"Peppy, Hippo",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/8/8d/NH-Bubbles_poster.png/revision/latest/scale-to-width-down/100?cb=20200522024110',
             reviews: []
         },
         {
-            name: "Bob",
-            description:"Lazy, Cat",
-            image:'https://static.wikia.nocookie.net/animalcrossing/images/1/14/NH-Bob_poster.png/revision/latest/scale-to-width-down/100?cb=20200410181927',
+            name: "Buck",
+            description:"Jock, Horse",
+            image:'https://static.wikia.nocookie.net/animalcrossing/images/b/b2/NH-Buck_poster.png/revision/latest/scale-to-width-down/100?cb=20200522024142',
             reviews: []
         },
 
