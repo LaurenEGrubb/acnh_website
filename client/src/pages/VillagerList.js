@@ -1,4 +1,4 @@
-import VillagerCard from '../components/VillagerCa
+import VillagerCard from '../components/VillagerCard.jsx'
 import { Link } from 'react-router-dom'
 
 
