@@ -50,14 +50,10 @@ const handleEdit = async (id) => {
             <textarea onChange={(e) => setMessage(e.target.value)} value={ message }
             id="message"
             cols="30" 
-            rows="10"
-            
-        >
+            rows="10">
             </textarea> 
             <button type="submit">Submit</button>
-           
-         </form>
-                    
+         </form>   
            {villager.reviews?.map((review) => (
             <div>
                 <p>{review.content}</p>
